@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Session } from "../../../../client-common/src/models/Session";
+import { Session } from "@/common/src/models/Session";
 import { Table } from "@mantine/core";
 import Link from "next/link";
 import useAuthJwt from "@/hooks/useAuth";

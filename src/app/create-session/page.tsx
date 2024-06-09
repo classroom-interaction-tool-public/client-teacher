@@ -2,7 +2,7 @@
 import React from "react";
 import { useForm } from "@mantine/form";
 import { TextInput, Button, Box } from "@mantine/core";
-import { Session } from "../../../../client-common/src/models/Session";
+import { Session } from "@/common/src/models/Session";
 
 const CreateSessionPage: React.FC = () => {
   return (
